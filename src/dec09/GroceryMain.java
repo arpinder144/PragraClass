@@ -56,7 +56,7 @@ class Panchvati extends Grocery{
 
 public class GroceryMain {
     public static void main(String[] args) {
-        Grocery grocery=new Grocery();
+        Grocery grocery=new NoFrills();
         grocery.shopping();
         grocery.collectionPoints();
 
